@@ -1,27 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dog API</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
+
 <body>
-    
+
     <main class="container" role="main container">
-        <header class="header-section">
 
-        </header>
         <section class="search-form-section">
-
+            <form action="" class="search-form">
+                <fieldset>
+                    <legend>Search Dogs</legend>
+                    <label for="num-of-dogs">
+                        <span class="search-form-label">Enter a number between 1 to 50 to display as many random dog
+                            images</span>
+                        <input type="number" name="num-of-dogs" id="num-of-dogs" value="3" min="1" max="50">
+                    </label>
+                    <button type="submit" class="app-button">Search</button>
+                </fieldset>
+            </form>
         </section>
+
         <section class="search-result-section">
-
+            <div class="wrapper">
+                
+            </div>
         </section>
+
         <footer class="footer-section">
-            
+            End of Search
         </footer>
     </main>
 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Custom Javascript -->
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
