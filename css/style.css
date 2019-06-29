@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+body, p, h1, h2, h3, h4, h5, h6,
+ul, li, a, button, form, fieldset, legend,
+input, div, header, footer{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
